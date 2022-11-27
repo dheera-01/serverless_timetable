@@ -1,0 +1,11 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  timetable:
+    lang: python3-flask
+    handler: ./timetable
+    image: dheerajyadav02/timetable:latest
+    environment:
+      content_type: text/html
