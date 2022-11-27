@@ -2,7 +2,7 @@
 Contains the openfaas functions for building timetable generating application.
 
 ## Serverless
-Before deploying the functions, we have to do port-forwarding and extract secret for gateway.
+Before deploying the functions, we have to do port-forwarding and extract the password for OpenFaaS portal.
 These instruction are provided on *https://docs.openfaas.com/deployment/kubernetes/* section.
 
 Forward the gateway to your machine.\
