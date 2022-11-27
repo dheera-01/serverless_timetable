@@ -35,7 +35,7 @@ Command for running: `python3 ServerlessScript.py`\
 The timetable is downloaded as *timetable.html*.\
 
 ## Server
-Server folder contains the code for building the server on local machine. The `index.py` contains the same code which is used for creating server in the container given in the python3-flask template of OpenFaaS store. Function folder contains the complete for logic and csv files.
+Server folder contains the code for building the server on local machine. The `index.py` contains the same code which is used for creating server in the container given in the python3-flask template of OpenFaaS store. Function folder contains the complete for logic and csv files.\
 
-Command for creating server on local machine: `python3 index.py`
+Command for creating server on local machine: `python3 index.py`\
 Command for running script: `python3 ServerScript.py`\
